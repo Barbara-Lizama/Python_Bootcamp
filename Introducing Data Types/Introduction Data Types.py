@@ -78,7 +78,6 @@ print(num)
 ## In a local library, there's a specific section that only allows members who are 18 years old or older to enter. You need to create a function can_access_library  to return if a member can access this section.
 def can_access_library(age):
     Check = age >= 18 
-
     return Check
     
 print(can_access_library(17))
@@ -89,7 +88,6 @@ print(can_access_library(19))
 def is_eligible_for_race(max_speed):
     Check = max_speed == 200
     return Check
-
 
 print(is_eligible_for_race(150))
 print(is_eligible_for_race(200))
